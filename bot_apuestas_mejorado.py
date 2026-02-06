@@ -23,7 +23,7 @@ from historical_from_h2h import (
 # --- Configuración ---
 # Recomendación: configura estas variables mediante variables de entorno:
 # TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID
-idBot = os.getenv('TELEGRAM_BOT_TOKEN', '6868920020:AAHZ_cbnWQhyi3Rjp4JkFLgzHF95AnVPLxM')
+idBot = os.getenv('TELEGRAM_BOT_TOKEN', 'tokenbot')
 idGrupo = os.getenv('TELEGRAM_CHAT_ID', '-1003331928750')
 INTERVALO_ACTUALIZACION = 60
 INDICE_FORMA_UMBRAL_ALTO = 15
